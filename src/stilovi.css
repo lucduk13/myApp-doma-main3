@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  /* Stil za kalkulator */
+  div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Stil za formu i elemente unosa */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="checkbox"],
+  select {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  input[type="number"]:focus,
+  select:focus {
+    border-color: #6e0053;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #ff2fd2;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c208b8;
+  }
+  
+  /* Stil za rezultat */
+  h2 {
+    background-color: #ffd0f5;
+    color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Stil za checkbox label */
+  label input[type="checkbox"] {
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 500px) {
+    div {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
+  
